@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+header {
+  margin-left: 35%;
+}
+ul {
+  list-style: none;
+  display: inline;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+}
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+}
+
+li a:hover {
+  color: rgb(255, 0, 128);
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 12rem;
+  margin-top: 10rem;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+
+.btn {
+  margin-left: 20rem;
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  background: rgb(255, 255, 255);
+  border: 1px solid #3f3f3f;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.btn:hover {
+  color: rgb(255, 0, 128);
+}
+h1 {
+  color: white;
+  margin-left: 45rem;
+  font-size: 40px;
+}
+p {
+  color: white;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 20px;
+}
+img {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
