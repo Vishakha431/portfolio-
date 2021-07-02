@@ -1,66 +1,87 @@
-body {
-  background-color: black;
+/*navbar*/
+/*.body{
+	background-color: black;
+}*/
+.container-fluid{
+	background-color: DDDDDD;
+	border: none;
 }
-header {
-  margin-left: 35%;
-}
-ul {
-  list-style: none;
-  display: inline;
-  background-color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 15px;
-}
-li {
-  display: inline-block;
-  margin: 20px;
-}
-li a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-size: 1.2rem;
-}
+.nav-item{
+    padding-right: 3rem;
 
-li a:hover {
-  color: rgb(255, 0, 128);
 }
-h2 {
-  font-family: "Times New Roman", Times, serif;
-  margin-left: 12rem;
-  margin-top: 10rem;
-  color: rgb(255, 255, 255);
-  font-size: 3rem;
+/*head section*/
+.heading{
+	margin-top: 15rem;
+	font-size: 20px;
+	color: black;
+	
 }
-
-.btn {
-  margin-left: 20rem;
-  height: 50px;
-  width: 150px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #000000;
-  background: rgb(255, 255, 255);
-  border: 1px solid #3f3f3f;
+.info{
+     font-size: 40px;
+     color: black;
+     
+}
+.subtext{
+	font-size: 20px;
+	color: black;
+	margin-bottom: 15rem;
+}
+/*services*/
+.hr{
+	border: 50px solid black;
+}
+.about{
+	margin-top: 20rem;
+    color: black;
+}
+.about-page{
+	background-color: pink;
+}
+/*Contact*/
+.hr{
+	border: 50px solid black;
+}
+.border {
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+.text-center{
+	padding: 1rem;
+}
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
   outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
   cursor: pointer;
-  border-radius: 25px;
+  transition: 0.5s;
 }
-.btn:hover {
-  color: rgb(255, 0, 128);
+.contact-form-btn:hover {
+  background: #4cd137;
 }
-h1 {
-  color: white;
-  margin-left: 45rem;
-  font-size: 40px;
-}
-p {
-  color: white;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  font-size: 20px;
-}
-img {
-  margin-left: 2rem;
-  margin-top: 1rem;
+.text-center{
+	margin-top: 3%;
 }
